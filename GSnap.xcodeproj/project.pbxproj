@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF48053981E702ABBFC6538 /* Pods_GSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40C7386DA850F2AFD3ADEFF /* Pods_GSnap.framework */; };
 		B01E543C220D152A00B3B8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E543B220D152A00B3B8F0 /* AppDelegate.swift */; };
-		B01E543E220D152A00B3B8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E543D220D152A00B3B8F0 /* ViewController.swift */; };
-		B01E5441220D152A00B3B8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01E543F220D152A00B3B8F0 /* Main.storyboard */; };
+		B01E543E220D152A00B3B8F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E543D220D152A00B3B8F0 /* LoginViewController.swift */; };
+		B01E5441220D152A00B3B8F0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01E543F220D152A00B3B8F0 /* Login.storyboard */; };
 		B01E5443220D152C00B3B8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01E5442220D152C00B3B8F0 /* Assets.xcassets */; };
 		B01E5446220D152C00B3B8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01E5444220D152C00B3B8F0 /* LaunchScreen.storyboard */; };
+		B01E544E220D1E0800B3B8F0 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E544D220D1E0800B3B8F0 /* Api.swift */; };
+		B01E5450220D26A700B3B8F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E544F220D26A700B3B8F0 /* Extension.swift */; };
+		B01E5452220D2A9900B3B8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01E5451220D2A9900B3B8F0 /* Main.storyboard */; };
+		B01E5454220D2EE200B3B8F0 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E5453220D2EE200B3B8F0 /* TimelineViewController.swift */; };
+		B01E5456220D45C900B3B8F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E5455220D45C900B3B8F0 /* User.swift */; };
+		B01E5458220D460400B3B8F0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01E5457220D460400B3B8F0 /* Post.swift */; };
+		B04FA5952216506F007F049D /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04FA5942216506F007F049D /* TimelineCell.swift */; };
+		B04FA597221650B7007F049D /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B04FA596221650B7007F049D /* TimelineCell.xib */; };
+		B04FA59922165C54007F049D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04FA59822165C54007F049D /* PostViewController.swift */; };
+		B0F0BAF2221F9F2000E81A08 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0BAF1221F9F2000E81A08 /* MypageViewController.swift */; };
+		B0F0BAF4221FCF1E00E81A08 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0BAF3221FCF1E00E81A08 /* CommentTableViewController.swift */; };
+		B0F0BAF6221FD08C00E81A08 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F0BAF5221FD08C00E81A08 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		516C548309D87BB167B39DF1 /* Pods-GSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSnap.debug.xcconfig"; path = "Target Support Files/Pods-GSnap/Pods-GSnap.debug.xcconfig"; sourceTree = "<group>"; };
+		6E365CC89FBD651AD053CF51 /* Pods-GSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSnap.release.xcconfig"; path = "Target Support Files/Pods-GSnap/Pods-GSnap.release.xcconfig"; sourceTree = "<group>"; };
+		A40C7386DA850F2AFD3ADEFF /* Pods_GSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01E5438220D152A00B3B8F0 /* GSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01E543B220D152A00B3B8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B01E543D220D152A00B3B8F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B01E5440220D152A00B3B8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B01E543D220D152A00B3B8F0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B01E5440220D152A00B3B8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		B01E5442220D152C00B3B8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01E5445220D152C00B3B8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B01E5447220D152C00B3B8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01E544D220D1E0800B3B8F0 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		B01E544F220D26A700B3B8F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B01E5451220D2A9900B3B8F0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B01E5453220D2EE200B3B8F0 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		B01E5455220D45C900B3B8F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B01E5457220D460400B3B8F0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B04FA5942216506F007F049D /* TimelineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		B04FA596221650B7007F049D /* TimelineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
+		B04FA59822165C54007F049D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B0F0BAF1221F9F2000E81A08 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		B0F0BAF3221FCF1E00E81A08 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		B0F0BAF5221FD08C00E81A08 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF48053981E702ABBFC6538 /* Pods_GSnap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76D8E0C90CB3AA70A77F03D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				516C548309D87BB167B39DF1 /* Pods-GSnap.debug.xcconfig */,
+				6E365CC89FBD651AD053CF51 /* Pods-GSnap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2416240036BA32A6868CC88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40C7386DA850F2AFD3ADEFF /* Pods_GSnap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B01E542F220D152A00B3B8F0 = {
 			isa = PBXGroup;
 			children = (
 				B01E543A220D152A00B3B8F0 /* GSnap */,
 				B01E5439220D152A00B3B8F0 /* Products */,
+				76D8E0C90CB3AA70A77F03D9 /* Pods */,
+				A2416240036BA32A6868CC88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +103,23 @@
 			isa = PBXGroup;
 			children = (
 				B01E543B220D152A00B3B8F0 /* AppDelegate.swift */,
-				B01E543D220D152A00B3B8F0 /* ViewController.swift */,
-				B01E543F220D152A00B3B8F0 /* Main.storyboard */,
+				B01E543D220D152A00B3B8F0 /* LoginViewController.swift */,
+				B01E543F220D152A00B3B8F0 /* Login.storyboard */,
 				B01E5442220D152C00B3B8F0 /* Assets.xcassets */,
 				B01E5444220D152C00B3B8F0 /* LaunchScreen.storyboard */,
 				B01E5447220D152C00B3B8F0 /* Info.plist */,
+				B01E544D220D1E0800B3B8F0 /* Api.swift */,
+				B01E544F220D26A700B3B8F0 /* Extension.swift */,
+				B01E5451220D2A9900B3B8F0 /* Main.storyboard */,
+				B01E5453220D2EE200B3B8F0 /* TimelineViewController.swift */,
+				B01E5455220D45C900B3B8F0 /* User.swift */,
+				B01E5457220D460400B3B8F0 /* Post.swift */,
+				B04FA5942216506F007F049D /* TimelineCell.swift */,
+				B04FA596221650B7007F049D /* TimelineCell.xib */,
+				B04FA59822165C54007F049D /* PostViewController.swift */,
+				B0F0BAF1221F9F2000E81A08 /* MypageViewController.swift */,
+				B0F0BAF3221FCF1E00E81A08 /* CommentTableViewController.swift */,
+				B0F0BAF5221FD08C00E81A08 /* Comment.swift */,
 			);
 			path = GSnap;
 			sourceTree = "<group>";
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01E544A220D152C00B3B8F0 /* Build configuration list for PBXNativeTarget "GSnap" */;
 			buildPhases = (
+				9787DC00CC77619C735B2D2D /* [CP] Check Pods Manifest.lock */,
 				B01E5434220D152A00B3B8F0 /* Sources */,
 				B01E5435220D152A00B3B8F0 /* Frameworks */,
 				B01E5436220D152A00B3B8F0 /* Resources */,
+				8E4AD586855B45BA080E8CC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,31 +186,90 @@
 			files = (
 				B01E5446220D152C00B3B8F0 /* LaunchScreen.storyboard in Resources */,
 				B01E5443220D152C00B3B8F0 /* Assets.xcassets in Resources */,
-				B01E5441220D152A00B3B8F0 /* Main.storyboard in Resources */,
+				B04FA597221650B7007F049D /* TimelineCell.xib in Resources */,
+				B01E5441220D152A00B3B8F0 /* Login.storyboard in Resources */,
+				B01E5452220D2A9900B3B8F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E4AD586855B45BA080E8CC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSnap/Pods-GSnap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSnap/Pods-GSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9787DC00CC77619C735B2D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSnap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B01E5434220D152A00B3B8F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01E543E220D152A00B3B8F0 /* ViewController.swift in Sources */,
+				B04FA59922165C54007F049D /* PostViewController.swift in Sources */,
+				B01E544E220D1E0800B3B8F0 /* Api.swift in Sources */,
+				B01E543E220D152A00B3B8F0 /* LoginViewController.swift in Sources */,
+				B01E5456220D45C900B3B8F0 /* User.swift in Sources */,
+				B01E5454220D2EE200B3B8F0 /* TimelineViewController.swift in Sources */,
+				B0F0BAF2221F9F2000E81A08 /* MypageViewController.swift in Sources */,
+				B04FA5952216506F007F049D /* TimelineCell.swift in Sources */,
+				B0F0BAF6221FD08C00E81A08 /* Comment.swift in Sources */,
+				B0F0BAF4221FCF1E00E81A08 /* CommentTableViewController.swift in Sources */,
 				B01E543C220D152A00B3B8F0 /* AppDelegate.swift in Sources */,
+				B01E5458220D460400B3B8F0 /* Post.swift in Sources */,
+				B01E5450220D26A700B3B8F0 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B01E543F220D152A00B3B8F0 /* Main.storyboard */ = {
+		B01E543F220D152A00B3B8F0 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B01E5440220D152A00B3B8F0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		B01E5444220D152C00B3B8F0 /* LaunchScreen.storyboard */ = {
@@ -280,6 +401,7 @@
 		};
 		B01E544B220D152C00B3B8F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516C548309D87BB167B39DF1 /* Pods-GSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +420,7 @@
 		};
 		B01E544C220D152C00B3B8F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E365CC89FBD651AD053CF51 /* Pods-GSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
